@@ -1,0 +1,19 @@
+{
+  "name": "gh-release-upload",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/gh-release-upload",
+  "description": "Upload an asset to a github release",
+  "scripts": {
+    "test": "prettier-standard-formatter *.js && standard"
+  },
+  "bin": {
+    "gh-release-upload": "bin.js"
+  },
+  "dependencies": {
+    "gh-canonical-repository": "^2.0.0",
+    "gh-latest-release": "^1.0.0",
+    "ghreleases": "^1.0.5",
+    "ora": "^1.2.0"
+  }
+}
